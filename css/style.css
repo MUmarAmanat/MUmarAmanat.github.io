@@ -184,7 +184,44 @@ p {
 
 nav {
   position: fixed;
-  background: #fff;
+  background: rgba(240, 240, 240, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(246, 246, 246, 1) 42%,
+    rgba(255, 173, 8, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(240, 240, 240, 1)),
+    color-stop(42%, rgba(246, 246, 246, 1)),
+    color-stop(100%, rgba(255, 173, 8, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(246, 246, 246, 1) 42%,
+    rgba(255, 173, 8, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(246, 246, 246, 1) 42%,
+    rgba(255, 173, 8, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(246, 246, 246, 1) 42%,
+    rgba(255, 173, 8, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(246, 246, 246, 1) 42%,
+    rgba(255, 173, 8, 1) 100%
+  );
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -198,7 +235,7 @@ nav {
   float: right;
   line-height: 32px;
   margin-bottom: 0;
-  padding-top: 16px;
+  padding-top: 45px;
 }
 
 nav ul li {
@@ -229,7 +266,7 @@ nav ul li a {
 
 .logo img {
   width: 100px;
-  height: 50px;
+  height: 100px;
 }
 
 .responsive {
@@ -317,12 +354,30 @@ nav ul li a {
   font-family: "Playfair Display", serif;
   font-size: 28px;
   text-align: left;
+  color: #4682b4;
 }
 
 #about .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  color: #95857b;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*   Experience
+/*-----------------------------------------------------------------------------------*/
+.experience {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#experience .p-heading {
+  font-family: "Poppins", serif;
+  font-size: 28px;
+  text-align: left;
+  color: #4682b4;
+  font-weight: 500;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -333,6 +388,7 @@ nav ul li a {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
+  padding-top: 30px;
 }
 
 .owl-item {
@@ -341,8 +397,8 @@ nav ul li a {
 .services-block span {
   margin: 10px 0;
   position: relative;
-  font-size: 13px;
-  color: #292929;
+  font-size: 15px;
+  color: #4682b4;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -353,6 +409,7 @@ nav ul li a {
   margin: 0;
   font-size: 13px;
   line-height: 22px;
+  color: #7b9095;
 }
 
 .services-block i {
