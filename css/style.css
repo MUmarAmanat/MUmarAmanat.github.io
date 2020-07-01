@@ -184,43 +184,10 @@ p {
 
 nav {
   position: fixed;
-  background: rgba(240, 240, 240, 1);
-  background: -moz-linear-gradient(
-    left,
-    rgba(240, 240, 240, 1) 0%,
-    rgba(246, 246, 246, 1) 42%,
-    rgba(255, 173, 8, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    right top,
-    color-stop(0%, rgba(240, 240, 240, 1)),
-    color-stop(42%, rgba(246, 246, 246, 1)),
-    color-stop(100%, rgba(255, 173, 8, 1))
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(240, 240, 240, 1) 0%,
-    rgba(246, 246, 246, 1) 42%,
-    rgba(255, 173, 8, 1) 100%
-  );
-  background: -o-linear-gradient(
-    left,
-    rgba(240, 240, 240, 1) 0%,
-    rgba(246, 246, 246, 1) 42%,
-    rgba(255, 173, 8, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    left,
-    rgba(240, 240, 240, 1) 0%,
-    rgba(246, 246, 246, 1) 42%,
-    rgba(255, 173, 8, 1) 100%
-  );
-  background: linear-gradient(
+  background-image: linear-gradient(
     to right,
-    rgba(240, 240, 240, 1) 0%,
-    rgba(246, 246, 246, 1) 42%,
-    rgba(255, 173, 8, 1) 100%
+    rgb(236, 226, 226),
+    rgb(255, 196, 0)
   );
   z-index: 1000;
   width: 100%;
@@ -326,7 +293,7 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -368,16 +335,75 @@ nav ul li a {
 /*   Experience
 /*-----------------------------------------------------------------------------------*/
 .experience {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#experience .separator {
+  margin-top: 5px;
 }
 
 #experience .p-heading {
+  text-align: center;
   font-family: "Poppins", serif;
-  font-size: 28px;
-  text-align: left;
+  font-size: 40px;
   color: #4682b4;
   font-weight: 500;
+}
+
+#experience .job-date {
+  display: inline;
+  font-family: "Poppins", serif;
+  text-align: right;
+  font-weight: 500;
+  font-size: 15px;
+}
+#experience .company {
+  display: inline;
+  font-family: "Poppins", serif;
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*   Education
+/*-----------------------------------------------------------------------------------*/
+.education {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#education .separator {
+  margin-top: 5px;
+}
+
+#education .p-heading {
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-size: 40px;
+  color: #4682b4;
+  font-weight: 500;
+}
+
+#education .job-date {
+  display: inline;
+  font-family: "Poppins", serif;
+  text-align: right;
+  font-weight: 500;
+  font-size: 15px;
+}
+#education .school {
+  display: inline;
+  font-family: "Poppins", serif;
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+}
+#education img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 10px;
 }
 
 /*-----------------------------------------------------------------------------------*/
