@@ -332,83 +332,15 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*   Experience
-/*-----------------------------------------------------------------------------------*/
-.experience {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-#experience .separator {
-  margin-top: 5px;
-}
-
-#experience .p-heading {
-  text-align: center;
-  font-family: "Poppins", serif;
-  font-size: 40px;
-  color: #4682b4;
-  font-weight: 500;
-}
-
-#experience .job-date {
-  display: inline;
-  font-family: "Poppins", serif;
-  text-align: right;
-  font-weight: 500;
-  font-size: 15px;
-}
-#experience .company {
-  display: inline;
-  font-family: "Poppins", serif;
-  text-align: left;
-  font-weight: 500;
-  font-size: 25px;
-}
-
-/*-----------------------------------------------------------------------------------*/
-/*   Education
-/*-----------------------------------------------------------------------------------*/
-.education {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-#education .separator {
-  margin-top: 5px;
-}
-
-#education .p-heading {
-  text-align: center;
-  font-family: "Poppins", serif;
-  font-size: 40px;
-  color: #4682b4;
-  font-weight: 500;
-}
-
-#education .job-date {
-  display: inline;
-  font-family: "Poppins", serif;
-  text-align: right;
-  font-weight: 500;
-  font-size: 15px;
-}
-#education .school {
-  display: inline;
-  font-family: "Poppins", serif;
-  text-align: left;
-  font-weight: 500;
-  font-size: 25px;
-}
-#education img {
-  width: 100px;
-  height: 100px;
-  padding-bottom: 10px;
-}
-
-/*-----------------------------------------------------------------------------------*/
 /*   Services
 /*-----------------------------------------------------------------------------------*/
+#services .p-heading {
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-size: 40px;
+  color: #4682b4;
+  font-weight: 500;
+}
 
 #services {
   background: #f7f7f7;
@@ -474,13 +406,104 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
+/*   Experience
+/*-----------------------------------------------------------------------------------*/
+.experience {
+  padding-top: 50px;
+}
+
+#experience .separator {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#experience .p-heading {
+  margin-top: 25;
+  margin-bottom: 25;
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-size: 40px;
+  color: #4682b4;
+  font-weight: 500;
+}
+
+#experience .job-date {
+  display: inline;
+  font-family: "Poppins", serif;
+  text-align: right;
+  font-weight: 500;
+  font-size: 15px;
+}
+#experience .company {
+  display: inline;
+  font-family: "Poppins", serif;
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*   Education
+/*-----------------------------------------------------------------------------------*/
+.education {
+  padding-top: 50px;
+}
+
+#education .separator {
+  margin-top: 5px;
+}
+
+#education .p-heading {
+  margin-top: 25;
+  margin-bottom: 25;
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-size: 40px;
+  color: #4682b4;
+  font-weight: 500;
+}
+
+#education .job-date {
+  display: inline;
+  font-family: "Poppins", serif;
+  text-align: right;
+  font-weight: 500;
+  font-size: 15px;
+}
+#education .school {
+  display: inline;
+  font-family: "Poppins", serif;
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+}
+#education img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 10px;
+}
+
+/*-----------------------------------------------------------------------------------*/
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
 
-#portfolio {
+.portfolio {
+  position: relative;
+  padding-top: 50px;
+}
+
+#portfolio .p-heading {
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-size: 40px;
+  color: #4682b4;
+  font-weight: 500;
+}
+
+/* #portfolio {
   position: relative;
   padding-bottom: 50px;
-}
+} */
 
 #portfolio .portfolio-list {
   margin-bottom: 50px;
