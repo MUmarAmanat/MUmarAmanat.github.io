@@ -14,6 +14,21 @@
 
 /*-----------------------------------------------------------------------------------*/
 
+/* Main title image */
+
+.title-image {
+  height: 100%;
+  width: 100%;
+}
+
+/* Image caption*/
+
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  color: black;
+}
+
 /* main content */
 
 .main-content {
@@ -36,9 +51,11 @@
   width: 100%;
 }
 
-.journal-txt h4 a {
-  display: block;
-  font-size: 19px;
+.journal-txt {
+  font-size: 30px;
+  padding-bottom: 20px;
+  /* display: block;
+  font-size: 40px;
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
@@ -47,17 +64,17 @@
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s; */
 }
 
-.journal-txt h4 a:hover {
+/* .journal-txt h4 a:hover {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-}
+} */
 
 .post-meta ul li {
   font-size: 12px;
