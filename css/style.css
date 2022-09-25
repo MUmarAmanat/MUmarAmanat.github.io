@@ -487,6 +487,7 @@ nav ul li a {
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
 
+
 .portfolio {
   position: relative;
   padding-top: 50px;
@@ -542,11 +543,15 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
+
+
 #portfolio .portfolio-container {
   display: inline-block;
   margin-bottom: 50px;
   width: 100%;
+
 }
+
 
 .portfolio-thumbnail {
   margin-bottom: 30px;
@@ -554,9 +559,32 @@ nav ul li a {
   min-height: 260px;
 }
 
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .7s ease;
+  
+}
+ 
+
+.portfolio-thumbnail:hover .image-overlay {
+  top: 25%;
+}
+
+
 .portfolio-thumbnail img {
   max-width: 100%;
+
 }
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
