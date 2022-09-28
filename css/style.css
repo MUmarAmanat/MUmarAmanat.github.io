@@ -187,7 +187,7 @@ nav {
   background-image: linear-gradient(
     to right,
     rgb(176, 209, 241),
-    rgb(255, 196, 0)
+    rgb(240, 144, 20)
   );
   z-index: 1000;
   width: 100%;
@@ -318,7 +318,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", serif;
   font-size: 28px;
   text-align: left;
   color: #4682b4;

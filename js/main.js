@@ -84,10 +84,11 @@ $(document).ready(function () {
     typed.typed({
       strings: [
         "Muhammad Umar Amanat.",
-        "Data Scientist.",
-        "ML|DL Engineer.",
-        "Developer",
-        "Freelancer.",
+        "Data Consultant"
+        // "Data Scientist.",
+        // "ML|DL Engineer.",
+        // "Data Engineer.",
+        // "Data Analys."
       ],
       typeSpeed: 100,
       loop: true,
