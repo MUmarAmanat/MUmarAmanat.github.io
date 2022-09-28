@@ -186,7 +186,7 @@ nav {
   position: fixed;
   background-image: linear-gradient(
     to right,
-    rgb(176, 209, 241),
+    rgb(250, 250, 250),
     rgb(240, 144, 20)
   );
   z-index: 1000;
