@@ -153,6 +153,13 @@
   background: #fff;
 }
 
+.tech-logo img {
+  width: 15%;
+  height: 15%;
+  padding-bottom: 6px;
+  padding-right: 5px;
+}
+
 blockquote {
   padding: 40px;
   background-color: #f2f2f2;
