@@ -54,6 +54,8 @@
 .journal-txt {
   font-size: 30px;
   padding-bottom: 20px;
+  flex: 1;
+  margin: 0;
   /* display: block;
   font-size: 40px;
   line-height: 24px;
