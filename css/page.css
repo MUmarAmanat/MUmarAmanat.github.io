@@ -155,12 +155,20 @@
   background: #fff;
 }
 
-.tech-logo img {
-  width: 15%;
-  height: 15%;
-  padding-bottom: 6px;
-  padding-right: 5px;
+
+.tech-logo-img {
+  width: 75%;
+  height: 100%;
+  object-fit: contain;
+} 
+
+.logo-h1-div {
+  color: #f26224;
+  margin: 5px;
 }
+
+
+
 
 
 blockquote {
