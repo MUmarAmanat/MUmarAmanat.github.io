@@ -84,7 +84,7 @@ $(document).ready(function () {
     typed.typed({
       strings: [
         "Muhammad Umar Amanat.",
-        "Data Consultant"
+        "a Data Consultant"
         // "Data Scientist.",
         // "ML|DL Engineer.",
         // "Data Engineer.",
